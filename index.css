@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f0ffff;
+}
+.header_div{
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    top: -5px;
+    align-items: center;
+}
+.header_child1>img{
+    width: 120px;
+    height: 80px;
+}
+.header_child1>button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    position:relative;
+    top: -22px;
+    left: 30px;
+    font-weight: bold;
+   background: linear-gradient(#2b5876,#4e4376);
+    cursor: pointer;
+    font-size: 11px;
+    color: #ffff;
+}
+.header_child2{
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.header_child2>input{
+    padding: 6px;
+    border: 2px solid rgb(192, 189, 189);
+    outline: none;
+    border-radius: 12px;
+    width: 200px;
+    
+}
+.header_child2>a>button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background: linear-gradient(#2b5876,#4e4376);
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #ffff;
+}
+.header_child2>input::placeholder{
+    font-size: 11px;
+}
+.center_div{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    height: 80px;
+    border: 5px double 	rgb(238, 242, 243)	;
+    text-align: center;
+    border-radius: 20px;
+    width: 1000px;
+    margin: 80px auto;
+    /* position: relative;
+    top: 80px; */
+}
+.center_div>h2{
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 20px;
+}
+.container_div>a,.container_div2>a{
+    text-decoration: none;
+}
+.container_child1,
+.container_child2,
+.container_child4,
+.container_child6
+
+{
+    width: 220px;
+   height: 260px;
+   background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+   border-radius: 10px;
+   text-decoration: none;
+   margin: 30px 40px;
+
+}
+.container_child3,
+.container_child5
+{
+    width: 220px;
+   height: 260px;
+   background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+   border-radius: 10px;
+   text-decoration: none;
+ margin: 30px 40px;
+}
+
+.container_child1:hover,.container_child2:hover,.container_child3:hover,.container_child4:hover,.container_child5:hover,.container_child6:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container_child1>img,
+.container_child2>img,
+.container_child3>img,
+.container_child4>img,
+.container_child5>img,
+.container_child6>img
+{
+    width: 140px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 30px;
+}
+.container_child1>h4,h6,
+.container_child2>h4,h6,
+.container_child3>h4,h6,
+.container_child4>h4,h6,
+.container_child5>h4,h6,
+.container_child6>h4,h6
+{
+   padding: 0px 23px;
+   color: #ffff;
+   background-color: black;
+   font-weight: normal;
+   font-size: 15px;
+
+}
+.container_child1>h6,
+.container_child2>h6,
+.container_child3>h6,
+.container_child4>h6,
+.container_child5>h6,
+.container_child6>h6
+{
+    font-size: 12px;
+}
+
+.container_div,.container_div2{
+    display: flex;
+  margin: 20px 40px;
+  margin-left: 200px;
+
+}
+.last_container{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.footer_child1>h1,.footer_child2>h1,.footer_child3>h1{
+    padding: 10px 0px;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: normal;
+}
+.footer_child1>p,
+.footer_child2>p,
+.footer_child3>p
+{
+    padding: 5px 0px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: normal;
+}
+
+
+

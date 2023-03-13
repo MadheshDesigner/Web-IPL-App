@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Player</title>
+    <link rel="stylesheet" href="add_team.css">
+</head>
+<body>
+    <div class="header_div">
+        <img src="images/IPL-2023.jpg" alt="">
+        <a href="index.html"> <button>Home</button></a>
+    </div>
+
+    <div class="top_player_div">
+        <h1>Add Player</h1>
+    </div>
+    
+    <div class="add_team">
+        <div class="add_team_1">
+            <p>Player Name</p>
+            <input type="text" placeholder="Enter the Name" id="input_text">
+            <p>Price In Crore</p>
+            <input type="number" placeholder="Enter Logo Url" min="1" id="input_number">
+            <p>Select Player Role</p>
+            <select name="" id="select_1">
+                <option value="" hidden>Select Player Role</option>
+                <option value="Batsman">Batsman</option>
+                <option value="All Rounder">All Rounder</option>
+                <option value="Bowler">Bowler</option>
+            </select>
+            <p>Select Team</p>
+            <select name="" id="selectEl">
+                <option value="" hidden>Select Team</option>
+                <option value="MI">MI</option>
+                <option value="CSK">CSK</option>
+                <option value="RCB">RCB</option>
+                <option value="KKR">KKR</option>
+                <option value="SRH">SRH</option>
+                <option value="PBKS">PBKS</option>
+            </select>
+            <P>Player Image Url</P>
+            <input type="text" placeholder="Enter Image Url" id="input_url">
+        </div>
+        <button id="Add_player">Add Player</button>
+    </div>
+
+    <div class="footer_container">
+        <img src="images/IPL-2023.jpg" alt="ipl">
+    </div>
+
+    <script src="add_player.js"></script>
+</body>
+</html>
