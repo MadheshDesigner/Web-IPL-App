@@ -31,5 +31,8 @@ BtnEl.addEventListener('click', () => {
         window.location.href = 'index.html'
 
     }
+     else{
+        alert('Please Enter the All values')
+    }
 
 })
