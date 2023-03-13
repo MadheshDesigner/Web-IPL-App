@@ -11,4 +11,7 @@ Add_player.addEventListener('click', () => {
     if(input_text.value!='' && input_number.value!='' && select_1.value!='' && selectEl.value!='' && input_url.value!=''){
         window.location.href='index.html'
     }
+    else{
+        alert('Please Enter the All values')
+    }
 })
