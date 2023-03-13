@@ -8,6 +8,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #f0ffff;
+    scroll-behavior: smooth;
 }
 .header_div{
     display: flex;
